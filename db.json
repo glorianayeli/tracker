@@ -1,19 +1,16 @@
 {
-  "posts": [
+  "tasks": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "text": "Doctors Appoinment",
+      "day": "Feb 5th at 2:30",
+      "reminder": false       
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "text": "Doctors",
+      "day": "Feb 5th at 2:30",
+      "reminder": true
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
